@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE01BCE1D541D0C008AC96A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE01BCD1D541D0C008AC96A /* main.m */; };
+		BFE01BD11D541D0C008AC96A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE01BD01D541D0C008AC96A /* AppDelegate.m */; };
+		BFE01BD91D541D0C008AC96A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE01BD81D541D0C008AC96A /* Images.xcassets */; };
+		BFE01BDC1D541D0C008AC96A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFE01BDA1D541D0C008AC96A /* LaunchScreen.xib */; };
+		BFE01BE81D541D0C008AC96A /* WaterPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE01BE71D541D0C008AC96A /* WaterPhotoTests.m */; };
+		BFE01BF41D542169008AC96A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE01BF21D542169008AC96A /* MainViewController.m */; };
+		BFE01BF51D542169008AC96A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFE01BF31D542169008AC96A /* MainViewController.xib */; };
+		BFE01BF91D5421C3008AC96A /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE01BF71D5421C3008AC96A /* CameraViewController.m */; };
+		BFE01BFA1D5421C3008AC96A /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFE01BF81D5421C3008AC96A /* CameraViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE01BE21D541D0C008AC96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE01BC01D541D0B008AC96A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE01BC71D541D0B008AC96A;
+			remoteInfo = WaterPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFE01BC81D541D0C008AC96A /* WaterPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE01BCC1D541D0C008AC96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE01BCD1D541D0C008AC96A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFE01BCF1D541D0C008AC96A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFE01BD01D541D0C008AC96A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFE01BD81D541D0C008AC96A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFE01BDB1D541D0C008AC96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BFE01BE11D541D0C008AC96A /* WaterPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE01BE61D541D0C008AC96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE01BE71D541D0C008AC96A /* WaterPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterPhotoTests.m; sourceTree = "<group>"; };
+		BFE01BF11D542169008AC96A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BFE01BF21D542169008AC96A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BFE01BF31D542169008AC96A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		BFE01BF61D5421C3008AC96A /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		BFE01BF71D5421C3008AC96A /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		BFE01BF81D5421C3008AC96A /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		BFE01BFB1D542A87008AC96A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BFE01BFC1D542BD5008AC96A /* DefualtDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefualtDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE01BC51D541D0B008AC96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE01BDE1D541D0C008AC96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE01BBF1D541D0B008AC96A = {
+			isa = PBXGroup;
+			children = (
+				BFE01BCA1D541D0C008AC96A /* WaterPhoto */,
+				BFE01BE41D541D0C008AC96A /* WaterPhotoTests */,
+				BFE01BC91D541D0C008AC96A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE01BC91D541D0C008AC96A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE01BC81D541D0C008AC96A /* WaterPhoto.app */,
+				BFE01BE11D541D0C008AC96A /* WaterPhotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE01BCA1D541D0C008AC96A /* WaterPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				BFE01BCF1D541D0C008AC96A /* AppDelegate.h */,
+				BFE01BD01D541D0C008AC96A /* AppDelegate.m */,
+				BFE01BF11D542169008AC96A /* MainViewController.h */,
+				BFE01BF21D542169008AC96A /* MainViewController.m */,
+				BFE01BF31D542169008AC96A /* MainViewController.xib */,
+				BFE01BF61D5421C3008AC96A /* CameraViewController.h */,
+				BFE01BF71D5421C3008AC96A /* CameraViewController.m */,
+				BFE01BF81D5421C3008AC96A /* CameraViewController.xib */,
+				BFE01BD81D541D0C008AC96A /* Images.xcassets */,
+				BFE01BDA1D541D0C008AC96A /* LaunchScreen.xib */,
+				BFE01BCB1D541D0C008AC96A /* Supporting Files */,
+			);
+			path = WaterPhoto;
+			sourceTree = "<group>";
+		};
+		BFE01BCB1D541D0C008AC96A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE01BFC1D542BD5008AC96A /* DefualtDefine.h */,
+				BFE01BFB1D542A87008AC96A /* PrefixHeader.pch */,
+				BFE01BCC1D541D0C008AC96A /* Info.plist */,
+				BFE01BCD1D541D0C008AC96A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFE01BE41D541D0C008AC96A /* WaterPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE01BE71D541D0C008AC96A /* WaterPhotoTests.m */,
+				BFE01BE51D541D0C008AC96A /* Supporting Files */,
+			);
+			path = WaterPhotoTests;
+			sourceTree = "<group>";
+		};
+		BFE01BE51D541D0C008AC96A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE01BE61D541D0C008AC96A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE01BC71D541D0B008AC96A /* WaterPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE01BEB1D541D0C008AC96A /* Build configuration list for PBXNativeTarget "WaterPhoto" */;
+			buildPhases = (
+				BFE01BC41D541D0B008AC96A /* Sources */,
+				BFE01BC51D541D0B008AC96A /* Frameworks */,
+				BFE01BC61D541D0B008AC96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterPhoto;
+			productName = WaterPhoto;
+			productReference = BFE01BC81D541D0C008AC96A /* WaterPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE01BE01D541D0C008AC96A /* WaterPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE01BEE1D541D0C008AC96A /* Build configuration list for PBXNativeTarget "WaterPhotoTests" */;
+			buildPhases = (
+				BFE01BDD1D541D0C008AC96A /* Sources */,
+				BFE01BDE1D541D0C008AC96A /* Frameworks */,
+				BFE01BDF1D541D0C008AC96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE01BE31D541D0C008AC96A /* PBXTargetDependency */,
+			);
+			name = WaterPhotoTests;
+			productName = WaterPhotoTests;
+			productReference = BFE01BE11D541D0C008AC96A /* WaterPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE01BC01D541D0B008AC96A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = com.sxt;
+				TargetAttributes = {
+					BFE01BC71D541D0B008AC96A = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = T2ED54EYB5;
+					};
+					BFE01BE01D541D0C008AC96A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BFE01BC71D541D0B008AC96A;
+					};
+				};
+			};
+			buildConfigurationList = BFE01BC31D541D0B008AC96A /* Build configuration list for PBXProject "WaterPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE01BBF1D541D0B008AC96A;
+			productRefGroup = BFE01BC91D541D0C008AC96A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE01BC71D541D0B008AC96A /* WaterPhoto */,
+				BFE01BE01D541D0C008AC96A /* WaterPhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE01BC61D541D0B008AC96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE01BDC1D541D0C008AC96A /* LaunchScreen.xib in Resources */,
+				BFE01BFA1D5421C3008AC96A /* CameraViewController.xib in Resources */,
+				BFE01BF51D542169008AC96A /* MainViewController.xib in Resources */,
+				BFE01BD91D541D0C008AC96A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE01BDF1D541D0C008AC96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE01BC41D541D0B008AC96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE01BD11D541D0C008AC96A /* AppDelegate.m in Sources */,
+				BFE01BF91D5421C3008AC96A /* CameraViewController.m in Sources */,
+				BFE01BF41D542169008AC96A /* MainViewController.m in Sources */,
+				BFE01BCE1D541D0C008AC96A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE01BDD1D541D0C008AC96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE01BE81D541D0C008AC96A /* WaterPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE01BE31D541D0C008AC96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE01BC71D541D0B008AC96A /* WaterPhoto */;
+			targetProxy = BFE01BE21D541D0C008AC96A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE01BDA1D541D0C008AC96A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE01BDB1D541D0C008AC96A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE01BE91D541D0C008AC96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFE01BEA1D541D0C008AC96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE01BEC1D541D0C008AC96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = WaterPhoto/PrefixHeader.pch;
+				INFOPLIST_FILE = WaterPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFE01BED1D541D0C008AC96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = WaterPhoto/PrefixHeader.pch;
+				INFOPLIST_FILE = WaterPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BFE01BEF1D541D0C008AC96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaterPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterPhoto.app/WaterPhoto";
+			};
+			name = Debug;
+		};
+		BFE01BF01D541D0C008AC96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaterPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterPhoto.app/WaterPhoto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE01BC31D541D0B008AC96A /* Build configuration list for PBXProject "WaterPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE01BE91D541D0C008AC96A /* Debug */,
+				BFE01BEA1D541D0C008AC96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE01BEB1D541D0C008AC96A /* Build configuration list for PBXNativeTarget "WaterPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE01BEC1D541D0C008AC96A /* Debug */,
+				BFE01BED1D541D0C008AC96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFE01BEE1D541D0C008AC96A /* Build configuration list for PBXNativeTarget "WaterPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE01BEF1D541D0C008AC96A /* Debug */,
+				BFE01BF01D541D0C008AC96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE01BC01D541D0B008AC96A /* Project object */;
+}
