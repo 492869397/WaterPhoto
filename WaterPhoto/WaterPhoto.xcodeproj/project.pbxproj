@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFB94C311D5884760052AD83 /* UIImage+WaterMask.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB94C301D5884760052AD83 /* UIImage+WaterMask.m */; };
 		BFE01BCE1D541D0C008AC96A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE01BCD1D541D0C008AC96A /* main.m */; };
 		BFE01BD11D541D0C008AC96A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE01BD01D541D0C008AC96A /* AppDelegate.m */; };
 		BFE01BD91D541D0C008AC96A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE01BD81D541D0C008AC96A /* Images.xcassets */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFB94C2F1D5884760052AD83 /* UIImage+WaterMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WaterMask.h"; sourceTree = "<group>"; };
+		BFB94C301D5884760052AD83 /* UIImage+WaterMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WaterMask.m"; sourceTree = "<group>"; };
 		BFE01BC81D541D0C008AC96A /* WaterPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE01BCC1D541D0C008AC96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFE01BCD1D541D0C008AC96A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 				BFE01BF61D5421C3008AC96A /* CameraViewController.h */,
 				BFE01BF71D5421C3008AC96A /* CameraViewController.m */,
 				BFE01BF81D5421C3008AC96A /* CameraViewController.xib */,
+				BFB94C2F1D5884760052AD83 /* UIImage+WaterMask.h */,
+				BFB94C301D5884760052AD83 /* UIImage+WaterMask.m */,
 				BFE01BD81D541D0C008AC96A /* Images.xcassets */,
 				BFE01BDA1D541D0C008AC96A /* LaunchScreen.xib */,
 				BFE01BCB1D541D0C008AC96A /* Supporting Files */,
@@ -233,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB94C311D5884760052AD83 /* UIImage+WaterMask.m in Sources */,
 				BFE01BD11D541D0C008AC96A /* AppDelegate.m in Sources */,
 				BFE01BF91D5421C3008AC96A /* CameraViewController.m in Sources */,
 				BFE01BF41D542169008AC96A /* MainViewController.m in Sources */,
@@ -429,6 +435,7 @@
 				BFE01BED1D541D0C008AC96A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFE01BEE1D541D0C008AC96A /* Build configuration list for PBXNativeTarget "WaterPhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +444,7 @@
 				BFE01BF01D541D0C008AC96A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

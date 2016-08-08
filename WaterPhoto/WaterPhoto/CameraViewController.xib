@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController">
             <connections>
+                <outlet property="assertImage" destination="bp0-KB-Z5R" id="nmQ-wt-7Vi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -13,7 +14,99 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9LL-GJ-73f">
+                    <rect key="frame" x="0.0" y="536" width="600" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gts-Zw-QlH">
+                            <rect key="frame" x="277" y="12" width="46" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="P4a-Vv-WfL"/>
+                                <constraint firstAttribute="height" constant="40" id="SKk-5E-C7V"/>
+                            </constraints>
+                            <state key="normal" title="拍照">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="takePhoto:" destination="-1" eventType="touchUpInside" id="rdi-FN-pcH"/>
+                            </connections>
+                        </button>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zHh-zu-NRv">
+                            <rect key="frame" x="38" y="16" width="51" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="49" id="Ua1-Lo-BWC"/>
+                                <constraint firstAttribute="height" constant="31" id="cMv-tF-F0i"/>
+                            </constraints>
+                            <connections>
+                                <action selector="toggleCamera:" destination="-1" eventType="valueChanged" id="BjQ-62-B6o"/>
+                            </connections>
+                        </switch>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bp0-KB-Z5R">
+                            <rect key="frame" x="530" y="7" width="50" height="50"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="ERq-WX-g35"/>
+                                <constraint firstAttribute="height" constant="50" id="xlV-cO-dsp"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="1eF-u1-j4A" appends="YES" id="0ie-0I-l7k"/>
+                            </connections>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="DFH-09-NLA"/>
+                        <constraint firstAttribute="height" constant="64" id="Yct-AL-R6e"/>
+                        <constraint firstItem="zHh-zu-NRv" firstAttribute="leading" secondItem="9LL-GJ-73f" secondAttribute="leading" constant="38" id="ZUI-2N-kbe"/>
+                        <constraint firstAttribute="centerY" secondItem="bp0-KB-Z5R" secondAttribute="centerY" id="b6z-sO-9Vi"/>
+                        <constraint firstAttribute="centerY" secondItem="zHh-zu-NRv" secondAttribute="centerY" id="cCI-tA-8Vz"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="64" id="cx3-hG-VaT"/>
+                        <constraint firstAttribute="trailing" secondItem="bp0-KB-Z5R" secondAttribute="trailing" constant="20" id="dN7-Jc-3CT"/>
+                        <constraint firstAttribute="centerX" secondItem="Gts-Zw-QlH" secondAttribute="centerX" id="j4h-5W-5VL"/>
+                        <constraint firstAttribute="centerY" secondItem="Gts-Zw-QlH" secondAttribute="centerY" id="qmh-2B-wkr"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="DFH-09-NLA"/>
+                            <exclude reference="cx3-hG-VaT"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9LL-GJ-73f" secondAttribute="trailing" constant="82" id="CEl-HD-Hqs"/>
+                <constraint firstItem="9LL-GJ-73f" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Cvy-ag-fEB"/>
+                <constraint firstAttribute="bottom" secondItem="9LL-GJ-73f" secondAttribute="bottom" id="Dg1-E2-NYs"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="9LL-GJ-73f" secondAttribute="trailing" id="EB3-aO-vyl"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="9LL-GJ-73f" secondAttribute="bottom" id="LVG-Us-QBo"/>
+                <constraint firstAttribute="trailing" secondItem="9LL-GJ-73f" secondAttribute="trailing" id="cuA-wd-cAM"/>
+                <constraint firstAttribute="bottom" secondItem="9LL-GJ-73f" secondAttribute="bottom" constant="8" id="mO2-AC-WBx"/>
+                <constraint firstItem="9LL-GJ-73f" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="218" id="obo-g3-Huh"/>
+                <constraint firstItem="9LL-GJ-73f" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sLW-lo-fCV"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="CEl-HD-Hqs"/>
+                    <exclude reference="Cvy-ag-fEB"/>
+                    <exclude reference="EB3-aO-vyl"/>
+                    <exclude reference="LVG-Us-QBo"/>
+                    <exclude reference="mO2-AC-WBx"/>
+                    <exclude reference="obo-g3-Huh"/>
+                </mask>
+            </variation>
         </view>
+        <view contentMode="scaleToFill" id="ing-rf-94n">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+        </view>
+        <tapGestureRecognizer id="1eF-u1-j4A">
+            <connections>
+                <action selector="lookPhotos:" destination="-1" id="dJP-X4-qpl"/>
+                <outlet property="delegate" destination="-1" id="ajt-8a-5BQ"/>
+            </connections>
+        </tapGestureRecognizer>
     </objects>
 </document>
